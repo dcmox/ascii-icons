@@ -5,7 +5,7 @@ ASCII Icons for your Web Components.
 ## Usage
 
 ```html
-// in your browser
+<!-- in your browser -->
 <script src="./ascii-icons-browser.js"></script>
 
 <style>
@@ -26,6 +26,7 @@ ASCII Icons for your Web Components.
 
 ```typescript
 const { AsciiIcon, getAsciiIcon } = require('ascii-icons')
+// In Node.js / TypeScript
 const icon = getAsciiIcon(AsciiIcon.Refresh)
 ```
 
