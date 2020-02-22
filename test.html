@@ -1,0 +1,16 @@
+<script src="./ascii-icons.js"></script>
+
+<style>
+	#test:after {
+		content: attr(data-content);
+		font-size: 40px;
+	}
+</style>
+<div id="test"></div>
+<script>
+	const el = document.querySelector('#test')
+	for (const symbol in AsciiIcon) {
+		el.innerHTML +=
+			`${symbol}: ` + getAsciiIcon(AsciiIcon[symbol]) + '<br />'
+	}
+</script>
