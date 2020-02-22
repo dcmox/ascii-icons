@@ -32,6 +32,8 @@ const icon = getAsciiIcon(AsciiIcon.Refresh)
 
 ## Icons
 
+Note, some of these icons appear differently in GitHub. Colored icons (minus the heavy check mark), should start appearing after 'DegreesCelcius'.
+
 CheckMark: ✓
 
 HeavyCheckMark: ✔
